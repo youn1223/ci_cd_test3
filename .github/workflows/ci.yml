@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Docker Image
 #        run: docker build -t ugcadman/cicd-springboot:latest -f SpringDockerFile .
-        run: docker build -t youn1223/cicd3:latest -f SpringDockerFile .
+        run: docker build -t yoonsunyoung/cicd3-springboot:latest -f SpringDockerFile .
 
       - name: Push Docker Image
-        run: docker push youn1223/cicd3:latest    
+        run: docker push yoonsunyoung/cicd3-springboot:latest
